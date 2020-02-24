@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+
+	<path>fuel.ac</path>
+	<texture-path>fuel.png</texture-path>
+		
+ <animation>
+  <type>material</type>
+  <object-name>face</object-name>
+  <object-name>needle</object-name>
+  <object-name>mount</object-name>  <emission>
+     <red>0.035</red>
+     <green>0.012</green>
+     <blue>0.007</blue>
+    <factor-prop>controls/lighting/instruments-norm</factor-prop>
+   </emission> 
+ </animation>  
+
+  <animation>
+  <type>rotate</type>
+  <object-name>needle</object-name>
+  <property>fdm/jsbsim/propulsion/total-fuel-lbs</property>
+  <interpolation>
+    <entry><ind>0</ind><dep>0</dep></entry>
+   <entry><ind>375</ind><dep>35</dep></entry>
+   <entry><ind>750</ind><dep>67</dep></entry>
+   <entry><ind>1125</ind><dep>110</dep></entry>
+   <entry><ind>1500</ind><dep>145</dep></entry>
+   <entry><ind>1875</ind><dep>180</dep></entry>
+   <entry><ind>2250</ind><dep>215</dep></entry>
+   <entry><ind>2625</ind><dep>255</dep></entry>
+   <entry><ind>3000</ind><dep>290</dep></entry>
+  </interpolation>
+  <center>
+   <x-m>0.000633992</x-m>
+   <y-m>0.000494922</y-m>
+   <z-m>0.0191635</z-m>		
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>  
+
+ <animation>
+  <type>select</type>
+  <object-name>RefuelLight</object-name>
+  <condition>
+    <property>fdm/jsbsim/propulsion/refuel</property>
+  </condition>
+ </animation>  
+
+ <!-- *** LoD *** -->
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>35</max-m>
+ </animation>
+ 
+</PropertyList>
+

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<!-- RTF means  "RPM", "TGT", "Fuel-flow" -->
+<!-- RTF by Fabrizio Fracaroli -->
+
+<PropertyList>
+	<path>RTF.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>RPMFace</object-name>
+        <object-name>RPM.needle</object-name>
+        <object-name>RTF</object-name>
+        <emission>
+            <red>0.035</red>
+            <green>0.012</green>
+            <blue>0.007</blue>
+    <factor-prop>controls/lighting/instruments-norm</factor-prop>
+        </emission>
+    </animation>
+
+    
+   <animation>
+        <type>rotate</type>
+        <object-name>RPM.needle</object-name>
+       <property>engines/engine[0]/n2</property>
+        <interpolation>
+            <entry><ind>0.0</ind><dep>0.0</dep></entry>
+            <entry><ind>10</ind><dep>30</dep></entry>
+            <entry><ind>20</ind><dep>37.5</dep></entry>
+            <entry><ind>30</ind><dep>67.5</dep></entry>
+            <entry><ind>40</ind><dep>100</dep></entry>
+            <entry><ind>50</ind><dep>135</dep></entry>
+            <entry><ind>60</ind><dep>160</dep></entry>
+            <entry><ind>70</ind><dep>185</dep></entry>
+            <entry><ind>80</ind><dep>212</dep></entry>
+            <entry><ind>90</ind><dep>240</dep></entry>
+            <entry><ind>100</ind><dep>270</dep></entry>
+ </interpolation>
+          <center>
+   <x-m>0.00803744</x-m>
+   <y-m>-0.000103638</y-m>
+   <z-m>0.0677096</z-m>		
+  </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0</y>
+            <z>0.0</z>
+        </axis>
+    </animation> 
+	
+     <animation>
+        <type>material</type>
+    <factor-prop>controls/lighting/instruments-norm</factor-prop>
+        <object-name>ITTFace</object-name>
+        <object-name>ITT.needle</object-name>
+        <emission>
+            <red>0.035</red>
+            <green>0.012</green>
+            <blue>0.007</blue>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>ITT.needle</object-name>
+    <property>engines/engine[0]/egt_degf</property>
+        <interpolation>
+        <entry><ind>0.0</ind><dep>0.0</dep></entry>
+        <entry><ind>2500.0</ind><dep>90.0</dep></entry>
+            <entry><ind>5000.0</ind><dep>180.0</dep></entry>
+     </interpolation>
+        <center>
+   <x-m>0.00775953</x-m>
+   <y-m>-0.000103655</y-m>
+   <z-m>-0.000282435</z-m>				
+  </center>		
+        <axis>
+            <x>-1.0</x>
+            <y>0</y>
+            <z>0.0</z>
+        </axis>
+    </animation> 
+    
+     <animation>
+        <type>material</type>
+        <object-name>PPHBezel</object-name>
+        <emission>
+            <red>0.035</red>
+            <green>0.012</green>
+            <blue>0.007</blue>
+    <factor-prop>controls/lighting/instruments-norm</factor-prop>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>material</type>
+        <object-name>PPHFace</object-name>
+        <object-name>PPH.needle</object-name>
+        <emission>
+            <red>0.035</red>
+            <green>0.012</green>
+            <blue>0.007</blue>
+    <factor-prop>controls/lighting/instruments-norm</factor-prop>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>PPH.needle</object-name>
+		<property>engines/engine[0]/fuel-flow_pph</property> 
+    <interpolation>
+    <entry> <ind>0</ind> <dep>0.0</dep> </entry>
+    <entry> <ind>4000</ind> <dep>212.0</dep> </entry>
+    <entry> <ind>12000</ind> <dep>323.0</dep> </entry>
+    <entry>  <ind>30000</ind> <dep>335.0</dep> </entry>
+    </interpolation>
+                  <center>
+   <x-m>0.00777776</x-m>
+   <y-m>-0.000103735</y-m>
+   <z-m>-0.0682748</z-m>		
+  </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+    
+    <animation>
+  <type>range</type> 
+  <min-m>0</min-m> 
+  <max-m>35</max-m> 
+  </animation>
+
+    
+</PropertyList>

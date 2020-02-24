@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<!-- This animation was made by Alexis Bory -->
+<PropertyList>
+
+	<path>Aircraft/AAE-AMX/Models/fx.ac</path>
+
+	
+ <animation>
+		<type>blend</type>
+		<object-name>Reheat</object-name>
+		<property>engines/engine[0]/egt_norm</property>
+		<offset>1.1</offset>
+		<factor>-1</factor>
+	</animation>	
+	
+<!--	<animation>
+		<type>select</type> 
+		<object-name>Reheat</object-name>
+		<condition>
+		<property>engines/engine[0]/running</property> 
+			<less-than>
+				<property>engines/engine[0]n2</property>
+				<value>90.0</value>
+			</less-than>
+		</condition>
+	</animation> -->
+	
+
+	<!-- Burner Flame -->
+	<animation>
+		<type>select</type>
+		<object-name>outerFlame</object-name>
+		<condition>
+			<property>engines/engine[0]/running</property>
+			<less-than>
+				<property>engines/engine[0]n2</property>
+				<value>90.0</value>
+			</less-than>
+		</condition>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>outerFlame</object-name>
+		<factor>0.0</factor>
+		<offset-m>-3.682</offset-m>
+		<axis>
+			<x>-1.17057</x>
+			<y>0</y>
+			<z>0.0112088</z>
+		</axis>
+	</animation>
+			
+
+	<animation>
+		<type>scale</type>
+		<object-name>outerFlame</object-name>
+		<property>engines/engine[0]/nozzle-pos-norm</property>
+		<x-factor>0.7</x-factor>
+		<x-offset>1.0</x-offset>
+		<y-factor>0.3</y-factor>
+		<y-offset>1.0</y-offset>
+		<z-factor>0.3</z-factor>
+		<z-offset>1.0</z-offset>
+	</animation> 
+	<animation>
+		<type>translate</type>
+		<object-name>outerFlame</object-name>  
+		<factor>0.0</factor>
+		<offset-m>3.682</offset-m>
+		<axis>
+			<x>-1.17057</x>
+			<y>0</y>
+			<z>0.0112088</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>outerFlame</object-name>
+		<condition>
+			<property>engines/engine[0]/running</property>
+			<less-than>
+				<property>engines/engine[0]n2</property>
+				<value>90.0</value>
+			</less-than>
+		</condition>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>outerFlame</object-name>
+		<factor>0.0</factor>
+		<offset-m>-3.682</offset-m>
+		<axis>
+			<x>-1.17057</x>
+			<y>0</y>
+			<z>0.0112088</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>scale</type>
+		<object-name>outerFlame</object-name>
+		<property>engines/engine[0]/nozzle-pos-norm</property>
+		<x-factor>0.7</x-factor>
+		<x-offset>1.0</x-offset>
+		<y-factor>0.3</y-factor>
+		<y-offset>1.0</y-offset>
+		<z-factor>0.3</z-factor>
+		<z-offset>1.0</z-offset>
+	</animation> 
+	<animation>
+		<type>translate</type>
+		<object-name>outerFlame</object-name>
+		<factor>0.0</factor>
+		<offset-m>3.682</offset-m> 
+		<axis>
+			<x>-1.17057</x>
+			<y>0</y>
+			<z>0.0112088</z>
+		</axis>
+	</animation> 
+
+
+	<animation>
+		<type>select</type>
+		<object-name>InnerFlame</object-name>
+		<condition>
+			<property>engines/engine[0]/running</property>
+			<less-than>
+				<property>engines/engine[0]n2</property>
+				<value>90.0</value>
+			</less-than>
+		</condition>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>InnerFlame</object-name>
+		<factor>0.0</factor>
+		<offset-m>-8.682</offset-m> 
+		<axis>
+			<x>-1.17057</x>
+			<y>0</y>
+			<z>0.0112088</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>scale</type>
+		<object-name>InnerFlame</object-name>
+		<property>engines/engine[0]/nozzle-pos-norm</property>
+		<x-factor>0.7</x-factor>
+		<x-offset>1.0</x-offset>
+		<y-factor>0.3</y-factor>
+		<y-offset>1.0</y-offset>
+		<z-factor>0.3</z-factor>
+		<z-offset>1.0</z-offset>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>InnerFlame</object-name>
+		<factor>0.0</factor>
+		<offset-m>8.682</offset-m>
+		<axis>
+			<x>-1.17057</x>
+			<y>0</y>
+			<z>0.0112088</z>
+		</axis>
+	</animation>
+
+
+	<!--flame texture animation -->
+
+	<animation>
+		<type>textranslate</type>
+		<object-name>InnerFlame</object-name>
+		<property>sim/model/AAE-AMX/fx/burner</property>
+		<factor>-0.0673828125</factor>
+		<axis>
+			<x>0</x>
+			<y>1</y>
+			<z>0</z>
+		</axis>
+	</animation>
+	
+	<!-- disable shadows for these objects -->
+	<animation>
+		<type>noshadow</type>
+		<object-name>fx</object-name>
+	</animation>
+	
+	 <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>5000</max-m>
+ </animation>
+
+</PropertyList>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+
+	<path>rwr-control-panel.ac</path>
+	<texture-path>display-buttons.png</texture-path>
+		
+	
+	 <animation>
+        <type>material</type>
+        <object-name>rwr-control-panel</object-name>
+        <emission>
+            <red>0.035</red>
+            <green>0.012</green>
+            <blue>0.007</blue>
+    <factor-prop>controls/lighting/instruments-norm</factor-prop>
+        </emission>
+    </animation>
+    
+	<animation>
+  <type>range</type> 
+  <min-m>0</min-m> 
+  <max-m>35</max-m> 
+  </animation>
+
+</PropertyList>
+

@@ -1,0 +1,582 @@
+﻿Pequeno e �gil, o AMX A-1 custa US$ 18 milh�es e incorpora 35 sistemas de
+  
+
+processamento informatizado e integrados.
+
+O AMX A-1  � um programa em conjunto empreendido por Alenia, Aermacchi e Embraer, de uma aeronave trans�nica de ataque ao solo, interdi��o de campo de batalha, apoio a�reo e miss�es de reconhecimento. � capaz de operar a velocidade subs�nica alta a baixa altitude, diuturnamente e em tempo adverso, e se necess�rio, de bases mal equipadas ou pistas danificadas. Caracteriza baixa assinatura IR, emiss�es de radar reduzidas 
+por dissimula��o e a baixa vulnerabilidade da estrutura e de      sistemas garantem      uma probabilidade alta de sucesso em miss�es. O ECM integrado, proj�teis ar-ar e canh�es no nariz prov�em capacidades de autodefesa.
+
+O AMX-T � um treinador biposto a jato turbofan trans�nico, especificamente desenvolvido para treinamento avan�ado. Mant�m as caracter�sticas operacionais do AMX A-1 de ataque j� em opera��o na FAB (Brasil) e na AMI (It�lia). � um treinador subs�nico com velocidade nivelada acima de 600km/h em qualquer configura��o armada. Tem a cabina do piloto maior e caracteriza tecnologia de quarta gera��o como o sistema Databus MIL STD-1553B com monitores de exibi��es head-up e multi-fun��es; GPS, radar multi-modos,  e sistemas de controle de v�o mec�nicos para o acaso de falha no sistema hidr�ulico. O AMX-T foi selecionado pela For�a A�rea Venezuelana (FAV) para substituir o velho T-2A Buckeye na fase de treinamento avan�ado.
+
+As asas do AMX A-1 s�o asas altas, com inclina��o de 27.5� na extremidade principal, e trilhos para AAMs nas gorjetas. A turbina fica alojada dentro da fuselagem tendo duas entradas de ar nas extremidades das ra�zes das asas. Tem uma cabina de boa visibilidade e � capaz de transportar  equipamentos de reconhecimento fotogr�fico sem abrir m�o de qualquer armamento; possibilita ao seu piloto responder a fogo hostil durante uma miss�o de reconhecimento. Sua capacidade de decolar em menos de 850 metros permite que ele opere a partir de pistas danificadas ou at� mesmo de estradas. Pode ser reabastecido em v�o, o que lhe proporciona excelente raio de a��o.
+
+ 
+
+O Programa AMX A-1
+
+Em 1973 a Aeritalia iniciou estudos para desenvolvimento de um ca�a de ataque que pudesse substituir os F-104 e os Fiat G-91 na For�a A�rea Italiana, e operasse em conjunto com o futuro Tornado que j� estava em desenvolvimento. A Aermacchi, empresa aeron�utica de reconhecimento mundial, tinha na mesma �poca o projeto de um ca�a leve de ataque ao solo; o que chamou aten��o da estatal Aeritalia, e em abril de 1978, Aeritalia e Aermacchi come�aram um Programa em conjunto de uma aeronave leve de ataque para substituir os F-104 italianos. Surgia ent�o o Programa AMX.
+
+A FAB por sua vez tinha um Projeto codinomeado A-X que estava em fase de estudos no final da d�cada de 70 pela EMBRAER, empresa de conceito internacional e que foi, em 1979 convidada a participar do Programa, o que era interessante para o Brasil para auto-sufici�ncia em tecnologia aeron�utica.
+
+
+Em mar�o de 1981, o Governo Brasileiro acordou com o Governo Italiano investimentos no desenvolvimento do ca�a que havia chamado aten��o do EMFA, e em julho daquele ano Alenia (Aeritalia), Aermacchi e EMBRAER assinaram contrato para a proje��o em conjunto do novo ca�a, sendo que caberia a EMBRAER a produ��o da vers�o Tupiniquim. 47% dos custo caberia � Alenia, 30% � EMBRAER e 23% � Aermacchi. O Programa descrevia que seriam produzidas inicialmente 187 aeronaves para a AMI e 79 aeronaves para a FAB. Era o in�cio do Programa AMX A-1.
+
+Meia d�zia de prot�tipos foram produzidos, dois no Brasil e quatro na It�lia; o primeiro (MM X594) conheceu os c�us da It�lia em 15 de maio de 1984, sob dom�nio do piloto italiano Manlio Quarantelli. Em 30 de maio de 1984, este prot�tipo explodiu ao solo depois de uma pane por falta de alimenta��o de ar na turbina durante uma aproxima��o para pouso, este acidente levou a vida de Quarantelli.
+
+Para substituir o primeiro prot�tipo foi constru�do mais um prot�tipo (MM X597), que voou pela primeira vez em 24 de maio de 1985. O piloto Egidio Nappi substituiu Manlio Quarantelli e os pilotos Napoleone Bragagnolo (ITA), Franco Bonazzi (ITA) e Luiz Cabral (BRA) formavam a equipe de testes.
+
+  
+
+Os testes continuavam com o segundo (MM X595) e o terceiro (MM X596) prot�tipos, iniciados em 19 de novembro de 1984 e 28 de janeiro de 1985 para testes e desenvolvimento dos avi�nicos e de armamento.
+
+
+O quarto prot�tipo (YA1 FAB4200), o primeiro fabricado pela EMBRAER, voou em 16 de outubro de 1985; o quinto (MM X599) em 26 de julho de 1986 o sexto e �ltimo (YA1 FAB4201) em 16 de dezembro de 1986.
+
+Em 1986 come�ou o desenvolvimento da variante duplo tripulada e em 29 de mar�o de 1988 estava pronto seu primeiro prot�tipo dos tr�s programados para constru��o, esse prot�tipo fez seu primeiro v�o dia 11 de maio daquele ano nos c�us de Turim. Esta vers�o teve a quantidade de combust�vel reduzida devido ao segundo piloto, e outras poucas diferen�as.
+
+O AMX A-1 ficou operacional em 1989, e o primeiro ca�a da s�rie de produ��o (MM 7089) fez seu primeiro v�o, 11 de maio de 1989.
+  
+
+Em 14 de mar�o de 1990 foi declarado operacional a variante de treinamento, o AMX-T.
+  
+
+Problemas no or�amento da FAB reduziram de 79 para 56 aeronaves produzidas, sendo 41 A-1 (monoposto) e A-1B (biposto) e 15 RA-1 (reconhecimento).
+  
+
+O AMX A-1 foi vendido al�m de Brasil e It�lia, para a Venezuela, na vers�o de treinamento, AMX-T.
+  
+
+Os A-1 e A-1B equipam os esquadr�es: 1�/16� GAv (Esquadr�o Adelfi) e o 3�/10� GAv (Esquadr�o Centauro); o 1�/10� GAv (Esquadr�o Poker - reconhecimento) substituir� seusRT-26 Xavante pelos RA-1.
+
+VARIANTES:
+  
+
+AMX (A-1 - Brasil) � primeira variante produzida, substituiu os G-91R/Y e os F-104G/S da For�a A�rea Italiana e os Xavantes da FAB na fun��o de ataque, interdi��o e reconhecimento; na It�lia opera em conjunto com os Tornados IDS e no Brasil com os F-5E; a principal diferen�a entre o AMX e o A-1 s�o alguns avi�nicos, subsistema de armamentos, o canh�o interno (no AMX existe um canh�o de 20mm e no A-1 dois de 30mm) e a sonda de reabastecimento (no AMX � revoc�vel autom�tica e no A-1 � fixa externa).
+
+
+AMX-T �  variante de treinamento, possui um segundo posto em tandem e controle dual, um no posto do instrutor e outro para o aluno, seu tanque interno � menor que do AMX A-1 pela coloca��o do segundo posto; na FAB foi designado A-1B e possui subsistemas e avi�nicos que capacitam-no a executar qualquer miss�o de ataque ou bombardeio real.
+
+  
+
+AMX-R (RA-1 - Brasil) � variante de reconhecimento t�tico � equipado com tr�s diferentes tipos de sistema fotogr�fico diurno ou noturno.
+  
+
+Super AMX �  variante mais recente, recebeu moderniza��es nos avi�nicos (HUD, HOTAS, GPS, contra-medidas autom�ticas, HMD, radar); recebeu o turborreator EJ-200 da Eurojet (uma variante da turbina do 0 Eurofighter EF-2000 sem p�s combust�o), esse produz 6.120 kg/f de empuxo, 20% a mais que o Rolls Royce do AMX A-1,  melhora em 40% o desempenho em decolagens; nenhuma aeronave operacional, os prot�tipos est�o prontos desde 2000 e  apenas �frica do Sul e Venezuela mostraram um fraco interesse pela aeronave.
+  
+
+AMX-ATA: variante do AMX-T com avi�nicos e subsistemas providos pela Elbit de Israel, radar Alenia Scipio SCP-01 (o mesmo do A-1), tem total capacidade de executar miss�o real de ataque, apenas a Venezuela manifestou interesse.
+  
+
+AMX-E: variante do AMX-ATA com sistema para Guerra Eletr�nica, pode executar miss�es SEAD e possui os subsistemas do m�ssil AGM-88 HARM; a aeronave de produ��o dever� receber o turborreator EJ-200 do Super AMX; apenas a It�lia manifestou interesse mas nenhuma aeronave foi pedida.
+  
+
+Um total de 200 AMX A-1 j� foram vendidos, 136 para  It�lia, 56 para o Brasil (incluindo 26 e 11 de dois postos) e 8 para a Venezuela (AMX-T).
+
+O AMX A-1
+  
+
+A estrutura semi-monobloco do AMX A-1 foi confeccionada quase toda em liga de alum�nio, com exce��o das superf�cies de controle que s�o de fibra de carbono; foi concebida para 16.000 horas de v�o (em m�dia 30 anos) que pode ser estendido para 24.000 horas; as asas do AMX A-1 s�o asas altas, com inclina��o de 27.5� na extremidade principal e 31� na extremidade de arrasto, possui trilhos para AAMs nas gorjetas; as superf�cies de controle do tipo FBW s�o hidr�ulico-mec�nicas (com problemas nos sistemas hidr�ulicos o piloto pode converter os controles para mec�nicos para pouso de emerg�ncia ou at� mesmo retornar de uma miss�o); o trem de pouso � do tipo triciclo revoc�vel de controle hidr�ulico, com sistema de absor��o de impacto hidr�ulico-pneum�tico; cada cubo traseiro possui uma roda com pneus de 670mm de di�metro por 210mm      de largura que recebem 140 libras de press�o (9,84kgf/cm2), possui um sistema de freios antiderrapante; uma �nica turbina Rolls-Royce RB 168-807 Turbofan de 5.000kg/f de empuxo propulsiona o AMX A-1 a velocidade trans�nica, fica alojada ao longo da fuselagem com duas entradas de ar nas extremidades das ra�zes das asas; leva 4.000 litros de combust�vel interno (o A-1, o AMX leva 3.500 internamente) e pode transportar um tanque de 1.100L sob a fuselagem e um tanque de 580L sob cada asa totalizando mais 2.260L de combust�vel externo al�m da capacidade de reabastecimento em v�o; tem uma cabina de boa visibilidade.
+  
+
+     O AMX A-1 recebeu assento ejet�vel Martin-Baker Mk 10L tipo zero/zero; possui 18� de vis�o descendente sobre o nariz; a cabina � pressurizada e tem controle autom�tico de temperatura, possui um p�lio de abertura para estibordo, avi�nicos dispostos para acesso r�pido, e ainda possui m�dulos vazios para coloca��o de avi�nicos adicionais; os sistemas hidr�ulicos s�o independentes e duplicados produzem a press�o de  3.000 libras (211kgf/cm2) sobre as superf�cies de controle e trem de pouso; o sistema el�trico prim�rio produz 115/200V AC a freq��ncia fixa de 400 Hz provido por dois geradores de 30kVA, com duas unidades transformadoras para convers�o para 28V DC; uma bateria de NiCd  de 36A  para uso de emerg�ncia provendo alimenta��o el�trica para os sistemas essenciais no caso de falha no sistema el�trico prim�rio e secund�rio; gerador el�trico independente para opera��o no solo; o sistema de igni��o da turbina foi desenvolvido pela Fiat (FA 150 Argo APU); possui sistema de oxig�nio l�quido; possui sistema de comunica��o UHF e VHF com identificador IFF.
+  
+
+O radar do A-1 � o Alenia SCP-01 constru�do e adaptado pela Tecnasa, o radar do AMX � o EL M-2001B da empresa Israelense Elbit, constru�do e adaptado pela Fiar;  a aeronave conta ainda com sistema ILS, TACAN, monitores e c�meras EO e HMD com vis�o noturna.
+  
+
+A aeronave possui um canh�o de barris girat�rios Vulcan M61A1 20mm com 350 disparos (AMX) ou dois canh�es DEFA 554 de 30mm (A-1) um de cada lado no nariz da aeronave; pode transportar m�sseis AA nas gorjetas como autodefesa e uma gama de m�sseis guiados a laser, IR, EO ou radar, al�m de bombas bal�sticas, LGBs e Foguetes.
+  
+
+O cheiro da p�lvora
+  
+
+     Os AMX italianos foram baseados na Turquia durante a Guerra do Golfo, mas n�o entraram em a��o; durante a Guerra na B�snia, foram utilizados para o controle e reconhecimento a�reo sobre a regi�o.
+  
+
+Iugosl�via: a prova de fogo
+  
+
+A miss�o era destruir uma grande esta��o de radar da defesa a�rea s�rvia, � 120 quil�metros rumo norte de Belgrado. Dois F-16 j� haviam tentado tal penetra��o, mas sem nenhum sucesso.
+  
+
+�s 06:00 horas da manh� de 14 de abril de 1999, dois AMX da Base A�rea de San Damiano come�aram a ser preparados pela equipe de terra. �s 19:00 horas os AMX decolaram para uma miss�o SEAD hi-lo-hi e seguindo o caminho t�tico (waypoints) se juntaram �s 19:12 horas a uma esquadrilha de ca�as interceptadores holandeses que os escoltaram durante a miss�o; a dupla se completava com um fazendo cobertura SEAD com m�sseis anti-radia��o e o outro com bombas LGBs para interdi��o de estruturas. Para chegar � esta��o de radar s�rvia, os AMX seguiram a rota de penetra��o no espa�o a�reo iugoslavo, passando entre montanhas e sobre lagos e florestas.
+  
+
+Os �ltimos 350 quil�metros foram cobertos em regime Low altitude (Angels 0) e a 950 km/h para evitar detec��o por radar e artilharia antia�rea que poderia ter se deslocado para o WP seguido. Os AMX participaram de duas interdi��es e ficaram por quase quatro minutos sobrevoando a �rea do bombardeio. �s 22:00 horas aproximadamente estavam de volta � Base A�rea de San Damiano. Foi a primeira vez que um AMX "sentia o cheiro da p�lvora" em combate real.
+  
+
+ 
+  
+
+Durante a Opera��o da OTAN sobre a Iugosl�via o AMX executou 252 miss�es de ataque (667 horas de v�o) lan�ando entre outras bombas, 39 Opher da Elbit de Israel, era a estr�ia das duas armas em um conflito.
+  
+
+Ficha T�cnica
+  
+  
+        
+
+Pa�s de Origem
+      	   
+
+Brasil / It�lia
+     
+        
+
+Construtor
+      	   
+
+Alenia /   Aermacchi / Embraer
+     
+        
+
+Modelo/operacional
+      	   
+
+AMX A-1 // 1989
+     
+        
+
+Descri��o
+      	   
+
+ca�a de ataque e   reconhecimento
+     
+        
+
+Dimens�es
+      	   
+   
+              
+
+Comprimento:
+          	     
+
+13,25m
+         
+              
+
+Altura:
+          	     
+
+4,55m
+         
+              
+
+Envergadura:
+          	     
+
+9,97m (c/     m�sseis) - 8,87m (asa limpa)
+         
+              
+
+Enverg est.     horiz.:
+          	     
+
+5,20m
+         
+              
+
+Trem de pouso:
+          	     
+
+entre eixos -     4,70m // entre rodas - 2,15m (eixo traseiro)
+         
+              
+
+�reas (total):
+          	     
+                    
+
+Asas
+              	       
+
+21m2
+             
+                    
+
+Estabil.       Horiz.
+              	       
+
+5,10m2
+             
+                    
+
+Estabil.       Vert.
+              	       
+
+4,26m2
+             
+                    
+
+Slats
+              	       
+
+2,07m2
+             
+                    
+
+Spoliers
+              	       
+
+1,30m2
+             
+                    
+
+Ailerons
+              	       
+
+0,88m2
+             
+                    
+
+Flaps
+              	       
+
+3,86m2
+             
+                    
+
+Leme
+              	       
+
+0,83m2
+             
+                    
+
+Elevadores
+              	       
+
+1,00m2
+             
+     
+         
+              
+
+Raz�o     peso/dimens�o:
+          	     
+
+457,1 kg/m2 (padr�o)     - 619,1kg/m2 (m�x.)
+         
+              
+
+Raz�o     peso/pot�ncia:
+          	     
+
+265kg/kN
+         
+              
+
+Peso:
+          	     
+     
+                    
+
+Vazio:
+              	       
+
+6.639kg
+             
+                    
+
+V�o Padr�o:
+              	       
+
+10.750kg       (950kg + 1 tanque 1.100L)
+             
+                    
+
+M�x. decol.:
+              	       
+
+13.000kg
+             
+     
+     
+         
+   
+   
+     
+        
+
+Desempenho
+      	   
+   
+              
+
+Velocidade:
+          	     
+     
+                    
+
+M�x.:
+              	       
+
+1.160km/h
+             
+                    
+
+Cruzeiro:
+              	       
+
+950km/h
+             
+                    
+
+Tomada       relativa:
+              	       
+
+mach 0.85
+             
+     
+     
+         
+              
+
+Limite carga     G:
+          	     
+
++ 7 // -3
+         
+              
+
+Cruzeiro:
+          	     
+
+3.330km (m�x. comb. interno + 1 tanque 1.100L sob     a fuselagem e 2 de 580L sob as asas).
+         
+              
+
+Teto servi�o:
+          	     
+
+13.000m
+         
+              
+
+Raz�o subida:
+          	     
+
+3.124m/min.
+         
+              
+
+Percurso     decol./pouso:
+          	     
+
+631m / 464m
+         
+              
+
+Raio de     combate:
+5 minutos     combate + 10% comb. reserva
+          	     
+     
+                    
+
+Hi-Hi-Hi:
+              	       
+
+1.070km       (conf. padr�o - 950 kg + 1       tanque 1.100L)
+             
+                    
+
+Hi-Lo-Hi:
+              	       
+
+888km (conf.       padr�o)
+             
+                    
+
+Lo-Lo-Lo:
+              	       
+
+555km (conf.       padr�o)
+             
+     
+     
+         
+   
+   
+     
+        
+
+Capacidade   combust�vel
+      	   
+   
+              
+
+Interno:
+          	     
+
+3.076kg (3.999     litros) 
+
+(6782 libras divididos em:  4 pontos )
+         
+              
+
+Externo:
+          	     
+
+tanque     descart�vel de 580L (464kg) m�dia de 161km ou
+tanque descart�vel de 1100L (879kg) m�dia de 295km
+e capacidade de reabastecimento em v�o.
+         
+   (1022 libras cada tanque externo, o de 580 litros)
+   
+   (1937 libras cada tanque de 1100 litros  )
+        
+
+Tripula��o:
+      	   
+
+1 (AMX A-1) e 2   (A-1B e AMX-T)
+     
+        
+
+Armamentos
+      	   
+   
+              
+
+Cap. carga:
+          	     
+
+at� 3.800kg em     dois pontos duros sob a fuselagem (at� 910 kg cada); 2 pontos duros para     pylons ou tanques sob cada asa (at� 500 kg cada) e 1 trilho para m�sseis AA     em cada gorjeta (ponta) de asa:
+         
+              
+
+Fixo
+          	     
+
+2 canh�o DEFA     554 de 30mm (A-1) ou
+1 canh�o Vulcan M61A1 20mm (AMX)
+         
+              
+
+Ar-Ar:
+          	     
+
+    *       Python 3 AAM;
+    *       MAA-1 Piranha;
+    *       AIM-9L Sidewinder;
+    *       AIM-132.
+           
+
+         
+              
+
+Ar-Solo:
+          	     
+
+M�sseis ASM     sob a fuselagem:
+     
+
+    *       Kormoran ASM;
+    *       AM-39 Exocet ASM;
+    *       ALARM;
+    *       AS.30L;
+           
+
+     
+
+Bombas: de at�     500kg sob as asas, de at� 910kg sob a fuselagem;
+     
+
+    *       Bombas GPB - EU2, EU3, Mk-82/83/84 (Slick          e Snakeye)
+    *       Bombas CBU - BeLouga, BL.755;
+    *       Bombas LGB - BGL-250, BGL-400, GBU-12,          GBU-16;
+    *       Bombas Opher.
+           
+
+     
+
+Foguetes 50/70/130mm; e
+     
+
+3 sistemas alternativos para     reconhecimento fotogr�fico.
+     
+
+ 
+     
+
+M�dulos     (ECM/laser) e tanques externos
+         
+   
+   
+     
+        
+
+Propuls�o
+      	   
+
+* 1 turbina   Rolls-Royce RB 168-807 Turbofan de 5.000kg/f de empuxo;
+     
+        
+
+Sensores/Sistemas
+      	   
+
+    *     comunica��o UHF/VHF/HF;
+    *     IRST / FLIR;
+    *     Sistemas hidr�ulicos duplicados e vinculados        a operadores mec�nicos no acaso de inoperabilidade de superf�cies de        controle, trem de pouso, freio de roda e controle de disparos;
+    *     Sistema el�trico prim�rio AC (115/200 V        a freq��ncia de 400 Hz) provido atrav�s de dois geradores IDG de        30 kVA, com duas unidades transformador/retificador para convers�o        para 28 V DC;
+    *     bateria (36 A) de NiCd para uso de                           emerg�ncia, provendo poder aos sistemas        essenciais no acaso de falha dos sistemas el�tricos prim�rio e        secund�rio;
+    *     Gerador el�trico APU para opera��o no solo;
+    *     Sistema de oxig�nio l�quido.
+    *     Todos Avi�nicos montados e posicionados para        acesso r�pido;
+    *     Desenho modular compacto para avi�nicos        alternativos;
+    *     Radar Elta EL/M-2001B (Israel) - (AMX) e        radar Tecnasa/SMA SCP-01 (A-1);
+    *     HUD;
+    *     monitores de v�deo BAE MED 2067;
+    *     Sistema de revezamento m�dulo laser/IR/EO e        m�dulo fotogr�fico, cada sistema � completamente compat�vel com a        aeronave e n�o afeta a capacidade operacional;
+    *     IFF;
+         
+
+     
+        
+
+Contra-medidas
+Sobreviv�ncia
+      	   
+
+    *     Jammer ECM ativo/passivo (ELT-555);
+    *     RWS - Alerta de detec��o por radar ou        persegui��o por m�ssil guiado por radar;
+    *     Assento ejet�vel zero/zero;
+    *     Chaff/Flare;
+    *     Blindagem.
+         
+
+     
+        
+
+Custo unidade
+      	   
+
+US$18.000.000,00   (1999)
+
+General characteristics
+Crew: 1 
+Length: 13.23 m (43 ft 5 in) 
+Wingspan: 8.87 m (29 ft 1 in) 
+Height: 4.55 m (14 ft 11 in) 
+Wing area: 21 m² (226 ft²) 
+Empty weight: 6,730 kg (14,840 lb) 
+Loaded weight: 10,750 kg (23,700 lb) 
+Max takeoff weight: 13,000 kg (28,700 lb) 
+Powerplant: 1× Rolls-Royce Spey 807 turbofan, 49 kN (11,000 lbf) 
+Performance
+Maximum speed: 1,160 km/h (626 knots, 721 mph) 
+Cruise speed: 950 km/h (510 knots, 590 mph) 
+Range: 3,330 km (1,800 nm, 2,070 mi) 
+Service ceiling: 13,000 m (43,000 ft) 
+Rate of climb: 52 m/s (10,000 ft/min) 
+Wing loading: 512 kg/m² (105 lb/ft²) 
+Thrust/weight: 0.47 
+Armament
+Guns:
+1× 20 mm (0.787 in) M61 Vulcan rotary cannon (Italian aircraft) or 
+2× 30 mm (1.18 in) DEFA 544 cannon (Brazilian aircraft) 
+Missiles: 2× AIM-9 Sidewinders or MAA-1 Piranha carried on wingtip rails 
+Bombs: 3,800 kg (8,380 lb) on 5 external hardpoints, including general-purpose and laser-guided bombs, air-to-ground missiles, and rockets 
+

@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<!--  
+ =========================================                                     
+  Prestes Hangar - 2010 - Embraer Project                                       
+ =========================================                                     
+       http://presteshangar.blogspot.com                                       
+                                                                               
+       Creation :   October 26, 2009 09:33:45 PM
+       Last update: June 16, 2010 05:00:45 PM               
+ ======================================================================        
+ Contributions :                                                               
+      Isaas V. Prestes <isaias.prestes at gmail dot com >
+      Fabrizio Fracaroli <fabriziofracaroli@hotmail.com >                     
+ ======================================================================        
+ Esta obra est licenciada sob uma Licena Creative Commons                    
+ Atribuio-Uso No-Comercial-Compartilhamento pela mesma Licena 3.0 Unported 
+ http://creativecommons.org/licenses/by-nc-sa/3.0/deed.pt                      
+                                                                               
+ This work is under Creative Commons License                                   
+ Attribution-Noncommercial-Share Alike 3.0 Unported                            
+ http://creativecommons.org/licenses/by-nc-sa/3.0/                             
+ ======================================================================        
+ 
+  --> 
+
+<PropertyList>
+
+ <sim>
+  <description>AAE-AMX</description>
+  <author>Isaias V. Prestes,Fabrizio Fracaroli</author>
+  <status>alpha</status>
+
+  <flight-model>jsb</flight-model>
+  <aero>AAE-AMX</aero>
+  
+  <!-- <systems>
+   <autopilot>
+   	<path>Aircraft/AAE-AMX/F-5E_Tiger_II-autopilot.xml</path>
+   	 </autopilot>
+   	 	</systems>-->
+
+<startup>
+<splash-texture>Aircraft/AAE-AMX/AAE-AMX-splash.png</splash-texture>
+</startup>
+
+<sound>
+<path>Aircraft/AAE-AMX/AAE-AMX-sound.xml</path>
+</sound>
+
+ <help>
+     
+   <key>
+    <name>m (lower case m) </name>
+    <desc>Nose wheel steering</desc>
+   </key>
+   
+   <key>
+    <name>c (lower case c) </name>
+    <desc>Open/Close canopy</desc>
+   </key>   
+     
+    <key>
+        <name>CTRl+b</name>
+        <desc>speedbrakes</desc>
+      </key>
+      
+  <line>Takeoff: rotate at 170 kts. Full flaps</line> 
+  <line>Landing: Approach at 185 knots, full flaps, speedbrakes on, landing-gear extended.</line>   
+  <line>Final approach at 155 kts, AOA 7 degrees.</line> 
+   <line>(I do not know if it is the correct, but it works fine here in FG)</line> 
+  <line>Gear limit: 250 knots.</line> 
+  <line>G limit (operational): 7.3</line> 
+  <line>G limit (structural): 9.0</line> 
+  <line /> 
+  <line>Clickable panel. Hit Ctrl-C to see hot spots.</line> 
+<text /> 
+  </help>
+
+  <model>
+ <path>Aircraft/AAE-AMX/Models/AAE-AMX.xml</path>
+ <livery>
+ <name type="string">AMX-A1</name> 
+ <texture>AMX-A1.png</texture> 
+ </livery>
+   <AAE-AMX>
+	<controls>	
+	<lighting>
+	<anti-collision-switch type="bool">true</anti-collision-switch>
+	<hook-bypass type="bool">false</hook-bypass><!-- false = carrier -->
+	<index-norm type="double">1</index-norm>
+	<position-tail-switch type="int">1</position-tail-switch>
+	<position-wing-switch type="int">1</position-wing-switch>
+	<position-flash-switch type="bool">true</position-flash-switch>
+	</lighting>
+	<VDI>
+	<brightness type="double">1</brightness>
+	<contrast type="double">0.6</contrast>
+	<on-off type="bool">0</on-off>
+	</VDI>	
+	<steer>
+	<tacan-bt type="bool">true</tacan-bt><!-- 3 -->
+	</steer>	
+	</controls>
+	
+	<fx>
+	<burner type="int">0</burner>
+	<heat-blur-on type="bool">false</heat-blur-on>
+	</fx>
+	  <instrumentation>
+	  
+	    <path>Aircraft/AAE-AMX/Systems/instrumentation.xml</path> 
+<!--		<path>Aircraft/AAE-AMX/Systems/radar.xml</path>   -->
+
+
+		<airspeed-indicator>
+			<safe-speed-limit-bug type="double">610</safe-speed-limit-bug>
+			</airspeed-indicator>
+			
+			<an-arc-182v>
+ 	<frequencies>
+ 	 <selected-mhz type="int">115800</selected-mhz> 
+ 	 </frequencies>
+ 	 <preset type="int">0</preset> 
+ 	<presets>
+ 	 <frequency n="0" type="double">115.80</frequency> 
+	 <!--  KSFO ATIS VOR-DME  --> 
+ 	 <frequency n="1" type="double">120.50</frequency> 
+ 	<!--  KSFO TWR   --> 
+ 	 <frequency n="2" type="double">124.17</frequency> 
+ 	<!--  KNUQ ATIS   --> 
+ 	 <frequency n="3" type="double">119.55</frequency> 
+	 <!--  KNUQ TWR   --> 
+ 	 <frequency n="4" type="double">120.15</frequency> 
+ 	<!--  KNID TWR   --> 
+	  <frequency n="5" type="double">132.55</frequency> 
+	 <!--  KLSV TWR   --> 
+ 	 <frequency n="6" type="double">0.0</frequency> 
+	  <frequency n="7" type="double">0.0</frequency> 
+ 	 <frequency n="8" type="double">0.0</frequency> 
+ 	 <frequency n="9" type="double">0.0</frequency> 
+ 	 <frequency n="10" type="double">0.0</frequency> 
+ 	 <frequency n="11" type="double">0.0</frequency> 
+ 	 <frequency n="12" type="double">0.0</frequency> 
+ 	 <frequency n="13" type="double">0.0</frequency> 
+ 	 <frequency n="14" type="double">0.0</frequency> 
+ 	 <frequency n="15" type="double">0.0</frequency> 
+ 	 <frequency n="16" type="double">0.0</frequency> 
+	  <frequency n="17" type="double">0.0</frequency> 
+ 	 <frequency n="18" type="double">0.0</frequency> 
+ 	 <frequency n="19" type="double">399.975</frequency> 
+ 	 </presets>
+ 	 <mode type="int">0</mode> 
+	  <function type="int">3</function> 
+	  <volume type="double">0.5</volume> 
+	  <brightness type="double">0.8</brightness> 
+	 <!-- <selected-channel type="int">1</selected-channel>  --> 
+	  </an-arc-182v>
+	  
+	  <an-arc-183v>
+ 	<frequencies>
+ 	 <selected-mhz type="int">111000</selected-mhz> 
+ 	 </frequencies>
+ 	 <preset type="int">0</preset> 
+ 	<presets>
+ 	 <frequency n="0" type="double">111.00</frequency> 
+	 <!--  KSFO ATIS VOR-DME  --> 
+ 	 <frequency n="1" type="double">121.30</frequency> 
+ 	<!--  KSFO TWR   --> 
+ 	 <frequency n="2" type="double">125.29</frequency> 
+ 	<!--  KNUQ ATIS   --> 
+ 	 <frequency n="3" type="double">121.55</frequency> 
+	 <!--  KNUQ TWR   --> 
+ 	 <frequency n="4" type="double">120.00</frequency> 
+ 	<!--  KNID TWR   --> 
+	  <frequency n="5" type="double">112.00</frequency> 
+	 <!--  KLSV TWR   --> 
+ 	 <frequency n="6" type="double">0.0</frequency> 
+	  <frequency n="7" type="double">0.0</frequency> 
+ 	 <frequency n="8" type="double">0.0</frequency> 
+ 	 <frequency n="9" type="double">0.0</frequency> 
+ 	 <frequency n="10" type="double">0.0</frequency> 
+ 	 <frequency n="11" type="double">0.0</frequency> 
+ 	 <frequency n="12" type="double">0.0</frequency> 
+ 	 <frequency n="13" type="double">0.0</frequency> 
+ 	 <frequency n="14" type="double">0.0</frequency> 
+ 	 <frequency n="15" type="double">0.0</frequency> 
+ 	 <frequency n="16" type="double">0.0</frequency> 
+	  <frequency n="17" type="double">0.0</frequency> 
+ 	 <frequency n="18" type="double">0.0</frequency> 
+ 	 <frequency n="19" type="double">225.000</frequency> 
+ 	 </presets>
+ 	 <mode type="int">0</mode> 
+	  <function type="int">3</function> 
+	  <volume type="double">0.5</volume> 
+	  <brightness type="double">0.8</brightness> 
+	  <selected-channel type="int">1</selected-channel> 
+	  </an-arc-183v>
+	  
+	  <fuel-gauges>
+	<total type="double">0</total>
+	</fuel-gauges>
+  <g-meter>
+	<g-max archive="y" type="double">1</g-max>
+		<g-min archive="y" type="double">1</g-min>
+		</g-meter>
+		<radar-altimeter>
+		<limit-bug type="double">250</limit-bug>
+		</radar-altimeter>
+		<cdi>
+		<from-flag type="bool">false</from-flag>
+		<to-flag type="bool">false</to-flag>
+		<needle-deflection type="double">0</needle-deflection>
+		</cdi>		
+		<tacan>
+		<xy-switch type="bool">0</xy-switch>
+		<nogo-lamp type="bool">false</nogo-lamp>
+		<go-lamp type="bool">false</go-lamp>
+		<mode type="int">0</mode>
+		<indicated-bearing-mag-deg type="double">0</indicated-bearing-mag-deg>
+		<switch-position>0</switch-position>
+		</tacan> 		
+	</instrumentation>
+	<lighting>
+	<position-wing-factor type="int">0</position-wing-factor>
+	<position-tail-factor type="int">0</position-tail-factor>
+	</lighting>
+	  </AAE-AMX>
+	</model>
+
+	<multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int type="int">0</int>  
+        <int type="int">0</int>  
+        <int type="int">0</int>  
+        <int type="int">0</int>  
+        <int type="int">0</int>  
+        <int type="int">0</int>  
+        <int type="bool">0</int> 
+        <int type="int">0</int>  
+      </generic>
+    </multiplay>  
+    
+		<rendering>
+			<redout>
+				<parameters>
+					<blackout-complete-g>7.0</blackout-complete-g>
+					<blackout-onset-g>5.5</blackout-onset-g>
+				</parameters>
+			</redout>
+		</rendering>
+
+		<menubar>
+			<default>
+				<menu n="100">
+					<label>AAE-AMX</label>
+					<enabled type="bool">true</enabled>
+					<item>
+			<label>Select Livery</label>
+				<binding>
+					<command>nasal</command>
+					<script>aircraft.livery.dialog.toggle()</script>
+				</binding>
+		</item>
+			      			      			
+			      <item>
+						<label>Left Engine Starter</label>
+						<binding>
+							<command>property-toggle</command>
+							<property>controls/engines/engine/starter</property>
+						</binding>
+						<binding>
+							<command>property-toggle</command>
+							<property>/sim/sound/switch</property>
+						</binding>
+					</item>
+					<item>
+						<label>Left Engine CutOff</label>
+						<binding>
+							<command>property-toggle</command>
+							<property>controls/engines/engine/cutoff</property>
+						</binding>
+						<binding>
+							<command>property-toggle</command>
+							<property>/sim/sound/switch</property>
+						</binding>
+					</item>
+
+				</menu>
+			</default>
+		</menubar>
+
+		 <view n="0">
+  <name>Cockpit View</name>
+<type>lookfrom</type>
+   <internal archive="y">true</internal>
+   <config>
+    <pitch-offset-deg>-4.0</pitch-offset-deg>
+    <x-offset-m archive="y">0.0134498</x-offset-m><!--  direita/esquerda/de z para x   --> 
+    <y-offset-m archive="y">1.15</y-offset-m><!-- cima/baixo/de y para y   -->
+    <z-offset-m archive="y">-3.00375</z-offset-m><!--  frente/atraz/de x para z  -->
+   </config>
+  </view>  
+  		
+			
+	
+
+   <view n="100">		
+   <name>external View</name>		
+   <type>lookfrom</type> 
+   <internal archive="y">true</internal>
+ <config>
+ <from-model type="bool">true</from-model>
+  <from-model-idx type="int">0</from-model-idx>
+  <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m> 
+  <x-offset-m archive="y">0.0134498</x-offset-m> <!--  direita/esquerda/de z para x   --> 
+  <y-offset-m archive="y">2.84824</y-offset-m>  <!-- cima/baixo/de y para y   --> 
+  <z-offset-m archive="y">-2.85004</z-offset-m> <!--  frente/atraz/de x para z  --> 
+  <pitch-offset-deg>-4.0</pitch-offset-deg> 
+  <heading-offset-deg>0</heading-offset-deg>
+  <default-field-of-view-deg>57</default-field-of-view-deg>
+   <limits>
+  <enabled type="bool">true</enabled> 
+ <left>
+  <heading-max-deg type="double">360</heading-max-deg> 
+  <x-offset-max-m type="double">0.25</x-offset-max-m> 
+  <x-offset-threshold-deg type="double">90</x-offset-threshold-deg> 
+  </left>
+ <right>
+  <heading-max-deg type="double">360</heading-max-deg> 
+  <x-offset-max-m type="double">0.25</x-offset-max-m> 
+  <x-offset-threshold-deg type="double">90</x-offset-threshold-deg> 
+  </right>
+  </limits>
+  </config>
+  </view>
+  
+  <view n="102">
+   <name>Mirror View</name>
+   <type>lookfrom</type> 
+  <internal type="bool">false</internal> 
+ <config>
+  <from-model type="bool">true</from-model>
+  <from-model-idx type="int">0</from-model-idx> 
+  <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m> 
+  <x-offset-m archive="y">0.0134498</x-offset-m> <!--  direita/esquerda/de z para x   --> 
+  <y-offset-m archive="y">1.54304</y-offset-m>  <!-- cima/baixo/de y para y   --> 
+  <z-offset-m archive="y">-1.53942</z-offset-m> <!--  frente/atraz/de x para z  --> 
+  <pitch-offset-deg>0</pitch-offset-deg> 
+  <heading-offset-deg>180</heading-offset-deg>
+  <default-field-of-view-deg>57</default-field-of-view-deg> 
+ <limits>
+  <enabled type="bool">true</enabled> 
+ <left>
+  <heading-max-deg type="double">360</heading-max-deg> 
+  <x-offset-max-m type="double">0.25</x-offset-max-m> 
+  <x-offset-threshold-deg type="double">45</x-offset-threshold-deg> 
+  </left>
+ <right>
+  <heading-max-deg type="double">360</heading-max-deg> 
+  <x-offset-max-m type="double">0.25</x-offset-max-m> 
+  <x-offset-threshold-deg type="double">45</x-offset-threshold-deg> 
+  </right>
+  </limits>
+  </config>
+  </view>
+  
+<submodels>
+<serviceable>true</serviceable>
+<path>Aircraft/AAE-AMX/submodels.xml</path>
+</submodels>
+
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+  <allow-toggle-cockpit archive="y">false</allow-toggle-cockpit> 
+
+  <chase-distance-m type="double" archive="y">-15.0</chase-distance-m>
+
+  <flaps>
+   <setting>0.00</setting>
+   <setting>0.50</setting> 
+   <setting>1.00</setting> 
+  </flaps>
+   </sim>
+
+   <systems>
+	<electrical>
+	<path>Aircraft/AAE-AMX/Systems/AAE-AMX-electrical.xml</path>
+	</electrical>
+	<refuel>
+	<type>probe</type>
+		</refuel>
+	  </systems> 
+	  
+	<consumables>
+  <fuel>
+   <tank n="0">
+    <level-gal_us archive="y">118</level-gal_us>
+   </tank>
+   <tank n="1">
+    <level-gal_us archive="y">118</level-gal_us>
+   </tank>
+  </fuel>
+ </consumables>
+ 
+ <controls>
+  <flight>
+   <elevator-trim>-0.07</elevator-trim>
+  </flight>
+  <lighting>
+	<instruments-norm type="double">0</instruments-norm>
+	<panel-norm type="double">0</panel-norm>
+	<strobe type="bool">false</strobe>
+	<nav-lights type="bool">true</nav-lights>
+	</lighting>
+  <armament>
+   <gunsight>
+    <power-on type="bool">true</power-on>
+    <intensity type="double">1.0</intensity>
+   </gunsight>
+  </armament>
+  <gear>
+   <brake-parking type="double">1</brake-parking>
+  </gear>
+ </controls>
+ 
+ <engines>
+  <engine n="0">
+   <running>true</running>
+  </engine>
+ </engines>
+
+<input>
+ <keyboard> 
+  
+    <key n="99">
+     <name>c</name>
+     <desc>toggle canopy</desc>
+     <binding>
+       <command>property-toggle</command>
+       <property>fdm/jsbsim/systems/canopy/command</property>
+     </binding>
+    </key> 
+  
+
+    <key n="109">
+     <name>m</name>
+     <desc>engage nose wheel steering</desc>
+     <binding>
+      <command>property-assign</command>
+      <property>fdm/jsbsim/systems/NWS/engaged</property>
+      <value>1</value> 
+     </binding>
+     <mod-up>
+       <binding>
+        <command>property-assign</command>
+        <property>fdm/jsbsim/systems/NWS/engaged</property>
+        <value>0</value> 
+       </binding>
+     </mod-up>
+    </key>
+
+
+ <key n="81">
+  <name>Shift-Q</name>
+  <desc>Fuel Cutoff Switch or Lever.</desc>
+  <binding>
+   <condition>
+    <property>/sim/input/selected/engine[0]</property>
+   </condition>
+   <command>property-toggle</command>
+   <property>/controls/engines/engine[0]/cutoff</property>
+  </binding>
+ </key>
+	</keyboard>
+	</input>
+
+	<instrumentation>
+	<tacan>
+	<switch-position type="int">1</switch-position>
+	</tacan>			
+	<nav>
+	<frequencies>
+	<selected-freq type="double">115.8</selected-freq>
+	<standby-freq type="double">115.8</standby-freq>
+	</frequencies>
+	</nav>
+	</instrumentation>
+
+
+
+ <fdm>
+  <jsbsim>
+   <systems>
+    <NWS>
+      <engaged type="double">0</engaged>
+    </NWS>
+    <canopy>
+      <command type="double">0</command>
+    </canopy>
+    <armament>
+      <station1>
+        <selected type="double">0</selected>
+      </station1>
+      <station2>
+        <selected type="double">0</selected>
+      </station2>
+      <station3>
+        <selected type="double">0</selected>
+      </station3>
+      <station4>
+        <selected type="double">0</selected>
+      </station4>
+      <station5>
+        <selected type="double">0</selected>
+      </station5>
+    </armament> 
+   </systems> 
+  </jsbsim>
+ </fdm>
+
+ <station-selected type="int">1</station-selected>
+
+ <canopy>
+  <position-norm type="double">0</position-norm>
+ </canopy>
+
+<nasal>
+
+<an_arc_182v>
+<file>Aircraft/AAE-AMX/Nasal/an-arc-182v.nas</file>
+</an_arc_182v>
+
+ <an_arc_183v>
+<file>Aircraft/AAE-AMX/Nasal/an-arc-183v.nas</file>
+</an_arc_183v> 
+
+	<nav_scripts>
+	<file>Aircraft/AAE-AMX/Nasal/nav_scripts.nas</file>
+	</nav_scripts>
+
+<AAE-AMX>
+
+<file>Aircraft/AAE-AMX/Nasal/Liveries.nas</file>
+<file>Aircraft/AAE-AMX/Models/Instruments/rwr/rwr.nas</file>
+<!-- 
+<file>Aircraft/AAE-AMX/Nasal/aar.nas</file>
+<file>Aircraft/AAE-AMX/Nasal/limits.nas</file>
+<file>Aircraft/AAE-AMX/Nasal/pilot-g.nas</file>   
+<file>Aircraft/AAE-AMX/Nasal/reload.sound.nas</file>
+<file>Aircraft/AAE-AMX/Nasal/chronograph.nas</file> 
+<file>Aircraft/AAE-AMX/Nasal/walk.nas</file> -->
+</AAE-AMX>
+<!--	<amx_instruments>
+	<file>Aircraft/AAE-AMX/Nasal/instruments.nas</file>
+	</amx_instruments> -->
+	</nasal>
+	</PropertyList>

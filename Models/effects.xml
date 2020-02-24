@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<!--particle effects for AAE-AMX -->
+ <!-- Estas medidas sao do lugar onde sai fumaca do escapamento da turbina, vou deixar o vertice la x 5.53947	y 0.195223	z 0 -->
+  <model>
+  <name>LFN</name>
+   <path>Aircraft/AAE-AMX/Models/Effects/smoketrail-AAE-AMX.xml</path>
+    <offsets>
+     <x-m>-12.7</x-m>
+     <y-m>-0.88</y-m>
+     <z-m>-5.92</z-m>
+     </offsets>
+  </model>
+  
+  <model>
+    <name>RFN</name>
+    <path>Aircraft/AAE-AMX/Models/Effects/smoketrail-AAE-AMX.xml</path>
+    <offsets>
+     <x-m>-12.7</x-m>
+     <y-m>0.88</y-m>
+     <z-m>-5.92</z-m>
+    </offsets>
+   </model>
+
+   <model>
+     <name>LRN</name>
+   <path>Aircraft/AAE-AMX/Models/Effects/smoketrail-AAE-AMX.xml</path>
+    <offsets>
+     <x-m>-10.65</x-m>
+     <y-m>-0.63</y-m>
+     <z-m>-5.77</z-m>
+     </offsets>
+  </model>
+  
+  <model>
+    <name>RRN</name>
+    <path>Aircraft/AAE-AMX/Models/Effects/smoketrail-AAE-AMX.xml</path>
+    <offsets>
+     <x-m>-10.65</x-m>
+     <y-m>0.63</y-m>
+     <z-m>-5.77</z-m>
+    </offsets>
+   </model>
+
+  
+<!-- vortex -->
+<model>
+  <path>Aircraft/AAE-AMX/Models/Effects/wingtip-vortex.xml</path>
+   <offsets>
+     <x-m> -9.2 </x-m>
+     <y-m> -3.6 </y-m>
+     <z-m>-5.95</z-m>
+   </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/AAE-AMX/Models/Effects/wingtip-vortex.xml</path>
+   <offsets>
+     <x-m> -9.2 </x-m>
+     <y-m> 3.6 </y-m>
+     <z-m> -5.95 </z-m>
+   </offsets>
+ </model>
+ 
+ <!--  Contrails  -->
+  <model>
+  <name>RCon</name>
+    <path>Aircraft/AAE-AMX/Models/Effects/contrail.xml</path>
+    <offsets>
+     <x-m>-4</x-m>
+     <y-m>-0.5</y-m>
+     <z-m>-5.95</z-m>
+    </offsets>
+  </model>
+
+    <model>
+    <name>LCon</name>
+    <path>Aircraft/AAE-AMX/Models/Effects/contrail.xml</path>
+    <offsets>
+     <x-m>-4</x-m>
+     <y-m>0.5</y-m>
+     <z-m>-5.95</z-m>
+    </offsets>
+  </model>
+
+<!-- tiresmoke -->
+ 
+  <model>
+  <!--	<path>Aircraft/Generic/Effects/Tiresmoke/tire-smoke-nose.xml</path> -->
+    <path>Aircraft/AAE-AMX/Models/Effects/Tiresmoke/tire-smoke-nose.xml</path>
+	<offsets>
+	<x-m> -13.8 </x-m>
+	<y-m>  0     </y-m>
+	<z-m>  -7.9  </z-m>
+	</offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/AAE-AMX/Models/Effects/Tiresmoke/tire-smoke-main.xml</path>
+	<offsets>
+	<x-m> -10.45 </x-m>
+	<y-m> 0.22     </y-m>
+	<z-m> -7.48  </z-m>
+	</offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/AAE-AMX/Models/Effects/Tiresmoke/tire-smoke-main.xml</path>
+	<offsets>
+	<x-m> -10.45 </x-m>
+	<y-m> -0.22   </y-m>
+	<z-m> -7.48 </z-m>
+	</offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/AAE-AMX/Models/Effects/Tiresmoke/tire-smoke-stbd.xml</path>
+	<offsets>
+	<x-m> -9.733 </x-m>
+	<y-m>  -3.35     </y-m>
+	<z-m>  -7.4  </z-m>
+	</offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/AAE-AMX/Models/Effects/Tiresmoke/tire-smoke-port.xml</path>
+	<offsets>
+	<x-m> -9.733 </x-m>
+	<y-m> 3.35     </y-m>
+	<z-m> -7.4  </z-m>
+	</offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/AAE-AMX/Models/Effects/Tiresmoke/tire-smoke-tail.xml</path>
+	<offsets>
+	<x-m> -24 </x-m>
+	<y-m> 0     </y-m>
+	<z-m> -7.4  </z-m>
+	</offsets>
+  </model>	
+<!-- gun blaze -->
+
+   <model> 
+     <path>Aircraft/AAE-AMX/Models/Effects/Armament/Guns/blaze.xml</path>	
+     <name>left</name>
+     <offsets>
+      <x-m>-13.25</x-m>
+      <y-m>-0.572</y-m>
+      <z-m>-6.68</z-m>
+      <pitch-deg>3</pitch-deg>
+     </offsets>
+    </model>	
+
+    <model> 
+       <path>Aircraft/AAE-AMX/Models/Effects/Armament/Guns/blaze.xml</path>
+	<name>right</name>
+	<offsets>
+	  <x-m>-13.25</x-m>
+	  <y-m>0.571</y-m>
+	  <z-m>-6.68</z-m>
+	  <pitch-deg>3</pitch-deg>
+      </offsets>
+    </model> 
+
+</PropertyList>
